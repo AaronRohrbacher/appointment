@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Appointments</title>
+  </head>
+  <body>
+    <div class = "container">
+      <h1>Appointments</h1>
+      <form id="appointments">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <input id="description" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input id="date" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="time">time</label>
+          <input id="time" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="confirm">
+        <p>Thank you, <span id="spanName"></span>. I will meet you regarding <span id="spanDescription"></span> on <span id="spanDate"></span> at <span id="spanTime"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
